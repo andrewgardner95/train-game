@@ -1,0 +1,32 @@
+header {
+	background: grey;
+	margin-bottom: 50px;
+}
+
+h1 {
+ text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+#schedule {
+	width: 60%;
+	height: 200px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	border: 2px black solid;
+}
+
+#add {
+	width: 60%;
+	height: 200px;
+	margin: 0 auto;
+	border: 2px black solid;
+}
+
+.section-header {
+	background: blue;
+	color: white;
+}
