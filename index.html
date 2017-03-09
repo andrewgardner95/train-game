@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Train Scheduler</title>
+  <title>Train Schedule</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
@@ -16,7 +16,7 @@
 
   <div id = "schedule">
     <div class = "section-header">Current Train Schedule</div>
-      <table style="width:100%">
+      <table id="train-table" style="width:100%">
         <tr>
           <th>Train Name</th>
           <th>Destination</th> 
@@ -42,7 +42,13 @@
     <button id = "submit">Submit</button>
   </div>
 
+  <!-- jQuery -->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  <!-- Firebase Reference -->
+  <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+  <!-- Link to Moment.js should go here -->
+  <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+  <!-- javascript -->
   <script type="text/javascript" src="assets/javascript/game.js"></script>
 
 </body>
