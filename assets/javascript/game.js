@@ -1,7 +1,3 @@
-// TO DO:
-// Mod for user inputs with errors
-// Don't let user type in more than 5 characters in First Train Time
-
 // Initialize Firebase
 var config = {
     apiKey: "AIzaSyChSG1kWfScNLEbrujhUVsAUioz-iHgOrw",

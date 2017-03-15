@@ -1,10 +1,17 @@
+body {
+	background: url("https://www.toptal.com/designers/subtlepatterns/patterns/nasty_fabric.png");
+}
+
 header {
-	background: grey;
+	background: blue;
 	margin-bottom: 50px;
+	margin-top: none;
+	color: white;
 }
 
 h1 {
  text-align: center;
+ margin-top: none;
 }
 
 h2 {
@@ -17,6 +24,7 @@ h2 {
 	margin: 0 auto;
 	margin-bottom: 50px;
 	border: 2px black solid;
+	background: white;
 }
 
 #add {
@@ -24,6 +32,7 @@ h2 {
 	height: 200px;
 	margin: 0 auto;
 	border: 2px black solid;
+	background: white;
 }
 
 .section-header {
